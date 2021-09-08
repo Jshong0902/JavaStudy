@@ -21,7 +21,7 @@ public class SwitchTest {
 			System.out.println("입력월을 확인하세요");
 		}
 		
-		System.out.println(day);
+		System.out.println(month + "월의 총 일수는" + day + "일입니다");
 
 	}
 
