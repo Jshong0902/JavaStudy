@@ -1,9 +1,14 @@
 package ch01;
 
 public class IronMan {
-	private int markName;
 	
-	public void fly(String name) {
-		System.out.println(name + "아이언맨이 날아다닙니다.");
+	private String markName;
+	public IronMan(String markName) {
+		this.markName = markName;
+		
+	}
+	
+	public void fly() {
+		System.out.println(markName + "아이언맨이 날아다닙니다.");
 	}
 }
