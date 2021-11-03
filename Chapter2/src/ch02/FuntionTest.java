@@ -23,7 +23,6 @@ public class FuntionTest {
 		sum = add(num1, num2);
 		System.out.println(sum);
 		
-		sum = sayHello("mrchoi");
 		
 		sum = calcSum();
 	}
